@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+}
+.header{
+    margin: 20px auto;
+    padding: 2rem;
+    text-align: center;
+}
+header>.title{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+}
+.tribute>blockquote{
+    text-align: center;
+}
+.bio>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line: height 1.2em;
+    text-align: center;
+}
+.bio>p{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align:center;
+}
+.img{
+    max-width: 0px;;
+    height: auto;
+}
